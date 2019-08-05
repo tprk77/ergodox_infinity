@@ -146,7 +146,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *                                        ,-------------.
    *                                        | Ctrl | Alt  |
    *                                 ,------|------|------|
-   *                                 |      |      | XXXX |
+   *                                 | Ctrl |      | XXXX |
    *                                 | Bspc | XXXX |------|
    *                                 |      |      | Lower|
    *                                 `--------------------'
@@ -278,9 +278,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    *                                        ,-------------.
    *                                        | Ctrl | Alt  |
    *                                 ,------|------|------|
-   *                                 |      |      | XXXX |
+   *                                 |      |      | Alt  |
    *                                 | Bspc | Nav  |------|
-   *                                 |      |      | XXXX |
+   *                                 |      |      | Ctrl |
    *                                 `--------------------'
    *
    * RIGHT:
